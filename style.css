@@ -1,0 +1,15 @@
+.hide{
+  display: none;
+}
+
+*{
+  background-color: black;
+  color: white;
+}
+
+.flex-util{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 270px;
+}
