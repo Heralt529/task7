@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const pagerInfo = document.getElementById('info');
 
 const images = [
-    'https://github.com/Heralt529/task6/blob/main/1.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/2.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/3.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/4.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/5.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/6.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/7.jpg?raw=true',
-    'https://github.com/Heralt529/task6/blob/main/8.jpg?raw=true'
+    'https://github.com/Heralt529/task7/blob/main/1.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/2.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/3.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/4.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/5.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/6.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/7.jpg?raw=true',
+    'https://github.com/Heralt529/task7/blob/main/8.jpg?raw=true'
 ];
 
 const par = '?w=800&h=600&fit=crop&crop=center&auto=format';
@@ -137,3 +137,4 @@ function StartListening()
 
 StartListening();
 });
+
