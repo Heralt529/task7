@@ -1,52 +1,35 @@
 <!DOCTYPE html>
-    <html>
+<html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Калькулятор</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Гареллея</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-    <div class="flex-util">
-        
-    <form>
-
-      <!-- Количество товара -->
-      <div id="prodQuan">
-      <label for="quantity">Количество:</label>
-      <input type="number" id="quantity" min="1" value="1">
-      </div>
-
-      <!-- Тип товара (радио) -->
-      <div id="prodType">
-      <label><input type="radio" name="prodTypes" value="type1" checked> Продукт 1</label>
-      <label><input type="radio" name="prodTypes" value="type2"> Продукт 2</label>
-      <label><input type="radio" name="prodTypes" value="type3"> Продукт 3</label>
-      </div>
-
-      <!-- Опции товара (список) -->
-      <div id="prodOptions">
-      <select id="prodOption">
-          <option value="option1">Опция 1</option>
-          <option value="option2">Опция 2</option>
-          <option value="option3">Опция 3</option>
-      </select>
-      </div>
-
-      <!-- Свойства товара (чекбокс) -->
-      <div id="prodProps">
-      <label><input type="checkbox" id="prodProp" name="prop1">Свойство</label>
-      </div>
-
-    </form>
-
-    <div id="prodPrice">Выберите тип и количество товара</div>
-
-    <script src="script.js"></script>
-
+<body>
+    <div class="main-container">
+        <div class="gallery-container">
+            <div class="navigation">
+                <button class="arrow" id="left">Туда</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery-slider" id="slider">
+                        
+                    </div>
+                </div>
+                <button class="arrow" id="right">Сюда</button>
+            </div>
+            <div class="pager">
+                <div class="pager-dots" id="points"></div>
+                <div class="pager-info" id="info"> 1/3 </div>
+            </div>
+        </div>
     </div>
-    </body>
 
-    </html>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
